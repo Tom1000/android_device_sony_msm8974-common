@@ -76,6 +76,18 @@ public:
     {
         // LED Android colors
         led_color(0, 255, 0);
+        msleep(500);
+        led_color(0, 80, 0);
+        msleep(500);
+        led_color(0, 255, 0);
+        msleep(500);
+        led_color(0, 80, 0);
+        msleep(500);
+        led_color(0, 255, 0);
+        msleep(500);
+        led_color(0, 80, 0);
+        msleep(500);       
+	led_color(0, 255, 0);
         msleep(1000);
 
         // Power off LED
@@ -87,6 +99,22 @@ public:
     {
         // LED Recovery colors
         led_color(0, 0, 255);
+	msleep(500);
+        led_color(0, 80, 0);
+	msleep(500);
+	led_color(0, 0, 255);
+	msleep(500);
+        led_color(0, 80, 0);
+	msleep(500);
+	led_color(0, 0, 255);
+	msleep(500);
+        led_color(0, 80, 0);
+	msleep(500);
+	led_color(0, 0, 255);
+	msleep(500);
+        led_color(0, 80, 0);
+	msleep(500);
+	led_color(0, 0, 255);
     }
 
     // Board: finish init execution
