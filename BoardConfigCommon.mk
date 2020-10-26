@@ -37,6 +37,7 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
 TARGET_KERNEL_SOURCE := kernel/sony/msm8974
+BOARD_RAMDISK_USE_LZMA := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
@@ -88,9 +89,6 @@ TARGET_USES_INTERACTION_BOOST := true
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
-
-# Recovery
-LZMA_RAMDISK_TARGETS := recovery
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2016-05-01
