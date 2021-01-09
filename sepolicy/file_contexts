@@ -10,7 +10,6 @@
 /dev/stune(/.*)?                                          u:object_r:cgroup:s0
 
 # Macaddrsetup
-/sys/devices/platform/bcmdhd_wlan/macaddr                 u:object_r:sysfs_addrsetup:s0
 /(vendor|system/vendor)/bin/macaddrsetup                  u:object_r:addrsetup_exec:s0
 
 # Partitions
